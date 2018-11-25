@@ -1,0 +1,33 @@
+{
+  "name": "cli-template",
+  "license": "MIT",
+  "scripts": {
+    "build": "flow-remove-types src/ --out-dir lib && pkg . --out-path dist/"
+  },
+  "bin": "lib/index.js",
+  "pkg": {
+    "targets": [
+      "node8-macos",
+      "node8-linux",
+      "node8-win"
+    ]
+  },
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "express": "^4.16.4",
+    "form-data": "^2.3.3",
+    "fs": "0.0.1-security",
+    "net": "^1.0.2",
+    "node-fetch": "^2.2.0",
+    "util": "^0.11.1",
+    "ws": "^6.1.0",
+    "ws-await": "^2.0.0",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.0",
+    "flow-bin": "^0.66.0",
+    "flow-remove-types": "^1.2.3",
+    "pkg": "^4.3.0"
+  }
+}
