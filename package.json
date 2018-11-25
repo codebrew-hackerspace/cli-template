@@ -13,15 +13,6 @@
     ]
   },
   "dependencies": {
-    "dgram": "^1.0.1",
-    "express": "^4.16.4",
-    "form-data": "^2.3.3",
-    "fs": "0.0.1-security",
-    "net": "^1.0.2",
-    "node-fetch": "^2.2.0",
-    "util": "^0.11.1",
-    "ws": "^6.1.0",
-    "ws-await": "^2.0.0",
     "yargs": "^11.0.0"
   },
   "devDependencies": {
